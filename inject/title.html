@@ -1,0 +1,97 @@
+<nav class="navbar navbar-light bg-dark sp-arnd center">
+    <button class="btn btn-lg btn-primary navBnt" data-toggle="modal" data-target="#OptionsModal">Options</button>
+</nav>
+<span>
+    <!-- Modal -->
+    <div class="modal fade" id="InstructionsModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">How To Play:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+                        facilisis
+                        in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                    <p>
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor.
+                    </p>
+                    <p>
+                        Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
+                        scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
+                        metus
+                        auctor fringilla.
+                    </p>
+                    <p>
+                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
+                        facilisis
+                        in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="OptionsModal" tabindex="-1" role="dialog" aria-labelledby="OptionsModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="OptionsModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="col">
+                        <div class="row center">
+                            <button class="btn btn-lg btn-primary navBnt m-4">Music On/Off</button>
+                        </div>
+                        <div class="row center">
+                            <button class="btn btn-lg btn-primary navBnt m-4">Restart</button>
+                        </div>
+                        <div class="row center">
+                            <button class="btn btn-lg btn-primary navBnt m-4">Menu</button>
+                        </div>
+                        <div class="row center">
+                            <button class="btn btn-lg btn-primary navBnt m-4" data-toggle="modal"
+                                data-target="#InstructionsModal" data-dismiss="modal">How to Play</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</span>
+
+
+<div class="content">
+    <div class="col">
+        <div class="szme row pb-4">
+            <h1>Test Your Knowledge on <b>Geography</b></h1>
+        </div>
+        <div class="row center">
+            <button id="titleToMenuBtn" class="btn btn-primary pl-5 pr-5 pr-2 pt-2">
+                <h4>Start Tivia Quiz</h4>
+            </button>
+        </div>
+    </div>
+
+</div>

@@ -2,35 +2,36 @@ body, html {
     height: 100%;
 }
 
-#title-bg{
-    background-image: url(../images/map1.jpg);
+.title-bg{
+    background-image: url("../images/map1.jpg");
 
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 #game-bg{
-    background-image: url(../images/map2.jpg);
+    background-image: url("../images/map2.jpg");
 
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    position: relative;
+    /* position: relative; */
 }
 
 .cont-bg{
-    background-color: black;
+    background-color: white;
+    height: calc(100% - 64px)
 }
 
 .content{
     position: absolute;
     text-align: center;
-    position: absolute;
-    top: 70%;
+    /* position: absolute; */
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -73,4 +74,18 @@ body, html {
 
 .szme{
     width: 400px;
+}
+
+.gameBtn-sz{
+    width: 350px;
+}
+
+.qSize{
+    width: 732px;
+}
+
+.diff-bg{
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
 }
