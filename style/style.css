@@ -1,0 +1,76 @@
+body, html {
+    height: 100%;
+}
+
+#title-bg{
+    background-image: url(../images/map1.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#game-bg{
+    background-image: url(../images/map2.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cont-bg{
+    background-color: black;
+}
+
+.content{
+    position: absolute;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.sp-arnd{
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width: 1250px){
+    .sp-arnd{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.navBnt{
+    width: 400px;
+}
+/* @media(max-width: 1250px){
+    .navBnt{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+} */
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content{
+    width: 400px;
+}
+
+.szme{
+    width: 400px;
+}

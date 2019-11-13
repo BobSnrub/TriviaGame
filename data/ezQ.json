@@ -1,0 +1,404 @@
+{
+    "ezQ": [
+        {
+            "q": "What is Earth's largest continent?",
+            "a1": "ASIA",
+            "a2": "ANTARCTICA",
+            "a3": "AFRICA",
+            "a4": "EUROPE",
+            "qa": "ASIA"
+        },
+        {
+            "q": "What razor-thin country accounts for more than half of the western coastline of South America?",
+            "a1": "PERU",
+            "a2": "BOLIVIA",
+            "a3": "ECUADOR",
+            "a4": "CHILE",
+            "qa": "CHILE"
+        },
+        {
+            "q": "What river runs through Baghdad?",
+            "a1": "EUPHRATES",
+            "a2": "KARUN",
+            "a3": "JORDAN",
+            "a4": "TIGRIS",
+            "qa": "TIGRIS"
+        },
+        {
+            "q": "What country has the most natural lakes?",
+            "a1": "INDIA",
+            "a2": "CANADA",
+            "a3": "UNITED STATES",
+            "a4": "AUSTRALIA",
+            "qa": "CANADA"
+        },
+        {
+            "q": "What is the only sea without any coasts?",
+            "a1": "MEDITERRANEAN SEA",
+            "a2": "ADRIATIC SEA",
+            "a3": "CELEBES SEA",
+            "a4": "SARGASSO SEA",
+            "qa": "SARGASSO SEA"
+        },
+        {
+            "q": "What percentage of the River Nile is located in Egypt?",
+            "a1": "22%",
+            "a2": "100%",
+            "a3": "9%",
+            "a4": "83%",
+            "qa": "22%"
+        },
+        {
+            "q": "What is the driest place on Earth?",
+            "a1": "ATACAMA DESERT",
+            "a2": "SAHARA DESERT",
+            "a3": "MCMURDO, ANTARCTICA",
+            "a4": "KUFRA, LIBYA",
+            "qa": "MCMURDO, ANTARCTICA"
+        },
+        {
+            "q": "In what country can you visit Machu Picchu?",
+            "a1": "BOLIVIA",
+            "a2": "PERU",
+            "a3": "COLUMBIA",
+            "a4": "CHILE",
+            "qa": "PERU"
+        },
+        {
+            "q": "Which African nation has the most pyramids?",
+            "a1": "LIBYA",
+            "a2": "EGYPT",
+            "a3": "SUDAN",
+            "a4": "ALGERIA",
+            "qa": "SUDAN"
+        },
+        {
+            "q": "What African country served as the setting for Tatooine in Star Wars?",
+            "a1": "GHAHA",
+            "a2": "ETHIOPIA",
+            "a3": "GABON",
+            "a4": "TUNISIA",
+            "qa": "TUNISIA"
+        },
+        {
+            "q": "What is the oldest city in the world?",
+            "a1": "JERUSALEM",
+            "a2": "JERICHO",
+            "a3": "DAMASCUS",
+            "a4": "ATHENS",
+            "qa": "DAMASCUS"
+        },
+        {
+            "q": "Which U.S. state has the most active volcanoes?",
+            "a1": "ALASKA",
+            "a2": "HAWAII",
+            "a3": "CALIFORNIA",
+            "a4": "WASHINGTON",
+            "qa": "ALASKA"
+        },
+        {
+            "q": "What is the flattest continent?",
+            "a1": "AUSTRALIA",
+            "a2": "ANTARCTICA",
+            "a3": "AFRICA",
+            "a4": "SOUTH AMERICA",
+            "qa": "AUSTRALIA"
+        },
+        {
+            "q": "What is the largest country on the Arabian Peninsula?",
+            "a1": "SAUDI ARABIA",
+            "a2": "YEMEN",
+            "a3": "UNITED ARAB EMIRATES",
+            "a4": "JORDAN",
+            "qa": "SAUDI ARABIA"
+        },
+        {
+            "q": "What country has the most coastline?",
+            "a1": "UNITED STATES",
+            "a2": "CANADA",
+            "a3": "RUSSIA",
+            "a4": "CHINA",
+            "qa": "CANADA"
+        },
+        {
+            "q": "Which of the following volcanoes is NOT located in Antarctica?",
+            "a1": "MOUNT NAPIER",
+            "a2": "MOUNT HAMPTON",
+            "a3": "MOUNT MELBOURNE",
+            "a4": "MOUNT BERLIN",
+            "qa": "MOUNT NAPIER"
+        },
+        {
+            "q": "What country is home to Kangaroo Island?",
+            "a1": "GREAT BRITAIN",
+            "a2": "FRANCE",
+            "a3": "AUSTRALIA",
+            "a4": "JAPAN",
+            "qa": "AUSTRALIA"
+        },
+        {
+            "q": "What continent is located at Latitude 90° S Longitude 0.00° E?",
+            "a1": "AUSTRALIA",
+            "a2": "SOUTH AMERICA",
+            "a3": "ANTARCTICA",
+            "a4": "ASIA",
+            "qa": "ANTARCTICA"
+        },
+        {
+            "q": "What is the largest country in South America?",
+            "a1": "BRAZIL",
+            "a2": "ARGENTINA",
+            "a3": "PERU",
+            "a4": "COLUMBIA",
+            "qa": "BRAZIL"
+        },
+        {
+            "q": "What is the tallest mountain in the world?",
+            "a1": "MOUNT EVEREST",
+            "a2": "QOGIR",
+            "a3": "MOUNT KILIMANJARO",
+            "a4": "ACONCAGUA",
+            "qa": "MOUNT EVEREST"
+        },
+        {
+            "q": "What city is the capital of Australia?",
+            "a1": "SYDNEY",
+            "a2": "CANBERRA",
+            "a3": "PERTH",
+            "a4": "MELBOURN",
+            "qa": "CANBERRA"
+        },
+        {
+            "q": "Riyadh is the capital of what Middle-Eastern country?",
+            "a1": "NIGER",
+            "a2": "CHAD",
+            "a3": "BURKINA FASO",
+            "a4": "CONGO",
+            "qa": "CONGO"
+        },
+        {
+            "q": "What is the smallest independent country on Earth?",
+            "a1": "NAURU",
+            "a2": "VATICAN CITY",
+            "a3": "GRENADA",
+            "a4": "MONACO",
+            "qa": "VATICAN CITY"
+        },
+        {
+            "q": "What is the deepest point in Earth's oceans?",
+            "a1": "JAVA TRENCH",
+            "a2": "MARIANA TRENCH",
+            "a3": "TONGA TRENCH",
+            "a4": "EURASIAN BASIN",
+            "qa": "MARIANA TRENCH"
+        },
+        {
+            "q": "What mountain is nicknamed the \"Savage Mountain\"?",
+            "a1": "MOUNT EVEREST",
+            "a2": "MATTERHORN",
+            "a3": "K2",
+            "a4": "ANNAPURNA",
+            "qa": "K2"
+        },
+        {
+            "q": "Along with Spain and France, what is the other country to have both Atlantic and Mediterranean coastlines?",
+            "a1": "SYRIA",
+            "a2": "LEBANON",
+            "a3": "MOROCCO",
+            "a4": "EGYPT",
+            "qa": "MOROCCO"
+        },
+        {
+            "q": "What country occupies the southern end of the Arabian Peninsula?",
+            "a1": "JORDAN",
+            "a2": "QATAR",
+            "a3": "YEMEN",
+            "a4": "KUWAIT",
+            "qa": "YEMEN"
+        },
+        {
+            "q": "What is the highest waterfall in Europe?",
+            "a1": "KRIMML",
+            "a2": "RHINE",
+            "a3": "TRIBERG",
+            "a4": "KJELFOSSEN",
+            "qa": "KRIMML"
+        },
+        {
+            "q": "What South American country shares the bulk of the Southern Cone with its neighbor Chile to the west?",
+            "a1": "PARAGUAY",
+            "a2": "BRAZIL",
+            "a3": "BOLIVIA",
+            "a4": "ARGENTINA",
+            "qa": "ARGENTINA"
+        },
+        {
+            "q": "What is the tallest mountain in North America?",
+            "a1": "MOUNT STEELE",
+            "a2": "DENALI",
+            "a3": "MOUNT RUSHMORE",
+            "a4": "KING PEAK",
+            "qa": "DENALI"
+        },
+        {
+            "q": "Montevideo is the capital of what South American country?",
+            "a1": "PERU",
+            "a2": "PARAGUAY",
+            "a3": "URUGUAY",
+            "a4": "SURINAME",
+            "qa": "URUGUAY"
+        },
+        {
+            "q": "What are the only three countries completely surrounded by one other country?",
+            "a1": "MALTA, GRANDA & VATICAN CITY",
+            "a2": "LIECHTENSTEIN, TUVALU & MONACO",
+            "a3": "LESOTHO, VATICAN CITY & SAN MARINO",
+            "a4": "SINGAPORE, TONGA & SAINT LUCIA",
+            "qa": "LESOTHO, VATICAN CITY & SAN MARINO"
+        },
+        {
+            "q": "What U.S. state shares borders with Louisiana, Arkansas, Oklahoma, and New Mexico?",
+            "a1": "TEXAS",
+            "a2": "COLORADO",
+            "a3": "MISSOURI",
+            "a4": "KANSAS",
+            "qa": "TEXAS"
+        },
+        {
+            "q": "What is the only continent with land in all four hemispheres?",
+            "a1": "ASIA",
+            "a2": "ANTARCTICA",
+            "a3": "AFRICA",
+            "a4": "AUSTRALIA",
+            "qa": "AFRICA"
+        },
+        {
+            "q": "What mountain is closest to the Moon?",
+            "a1": "MOUNT EVEREST",
+            "a2": "MOUNT CHIMBORAZO",
+            "a3": "MOUNT PARAT",
+            "a4": "MOUNT PANDIM",
+            "qa": "MOUNT CHIMBORAZO"
+        },
+        {
+            "q": "What are the westernmost and easternmost states in the United States?",
+            "a1": "WASHINGTON & NEW YORK",
+            "a2": "CALIFORNIA & FLORIDA",
+            "a3": "ALASKA & ALASKA",
+            "a4": "HAWAII & MAINE",
+            "qa": "ALASKA & ALASKA"
+        },
+        {
+            "q": "What continent contains the most fresh water?",
+            "a1": "AFRICA",
+            "a2": "NORTH AMERICA",
+            "a3": "ASIA",
+            "a4": "ANTARCTICA",
+            "qa": "ANTARCTICA"
+        },
+        {
+            "q": "What ocean is home to 75% of the Earth's volcanoes?",
+            "a1": "INDIAN",
+            "a2": "ARCTIC",
+            "a3": "PACIFIC",
+            "a4": "ATLANTIC",
+            "qa": "PACIFIC"
+        },
+        {
+            "q": "What is the largest city in the world based on surface area?",
+            "a1": "DHAKA",
+            "a2": "MUMBAI",
+            "a3": "HULUNBUIR",
+            "a4": "SHANGHAI",
+            "qa": "HULUNBUIR"
+        },
+        {
+            "q": "What is the only major city located on two continents?",
+            "a1": "LONDON",
+            "a2": "ROME",
+            "a3": "NEW DELHI",
+            "a4": "ISTANBUL",
+            "qa": "ISTANBUL"
+        },
+        {
+            "q": "What is the coldest sea on Earth?",
+            "a1": "BALTIC SEA",
+            "a2": "WHITE SEA",
+            "a3": "CASPIAN SEA",
+            "a4": "PERSIAN GULF",
+            "qa": "WHITE SEA"
+        },
+        {
+            "q": "What is America's largest city by surface area?",
+            "a1": "LOS ANGELES",
+            "a2": "BUFORD",
+            "a3": "YAKUTAT",
+            "a4": "NEW YORK",
+            "qa": "YAKUTAT"
+        },
+        {
+            "q": "Which of the following lakes is located in an ancient meteorite impact crater?",
+            "a1": "LAKE BOSUMTWI",
+            "a2": "LAKE TITICACA",
+            "a3": "LAKE MWERU",
+            "a4": "LAKE POOPO",
+            "qa": "LAKE BOSUMTWI"
+        },
+        {
+            "q": "How many tributaries does the Amazon River have?",
+            "a1": "1,100",
+            "a2": "560",
+            "a3": "3,500",
+            "a4": "9",
+            "qa": "1,100"
+        },
+        {
+            "q": "What is the oldest active volcano on Earth?",
+            "a1": "MOUNT YASUR",
+            "a2": "MOUNT FUJI",
+            "a3": "MOUNT ETNA",
+            "a4": "MOUNT OLYMPUS",
+            "qa": "MOUNT ETNA"
+        },
+        {
+            "q": "Of the eight major islands in the Hawaiian Archipelago, what is the only one that is uninhabited?",
+            "a1": "COCONUT ISLAND",
+            "a2": "MOLOKAI",
+            "a3": "NIIHAU",
+            "a4": "KAHO’OLAWE",
+            "qa": "KAHO’OLAWE"
+        },
+        {
+            "q": "What river runs through Paris?",
+            "a1": "SEINE",
+            "a2": "DANUBE",
+            "a3": "ELBE",
+            "a4": "THAMES",
+            "qa": "SEINE"
+        },
+        {
+            "q": "What mountain range stretches from the town of Seesen in northwest Germany to Eisleben in the east?",
+            "a1": "PYANEES",
+            "a2": "URAL MOUNTAINS",
+            "a3": "HARZ",
+            "a4": "ALPS",
+            "qa": "HARZ"
+        },
+        {
+            "q": "What Hawaiian island is known as \"Bird Island\"?",
+            "a1": "KAUHUULA",
+            "a2": "PULEMOKU",
+            "a3": "HULU",
+            "a4": "NIHOA",
+            "qa": "NIHOA"
+        },
+        {
+            "q": "QUITO IS THE CAPITAL OF WHAT COUNTRY?",
+            "a1": "CHILE",
+            "a2": "ARGENTINA",
+            "a3": "ECUADOR",
+            "a4": "BRAZIL",
+            "qa": "ECUADOR"
+        }
+    ]
+}

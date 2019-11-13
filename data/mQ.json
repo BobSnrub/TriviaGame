@@ -1,0 +1,404 @@
+{
+    "mQ": [
+        {
+            "q": "What mountains form part of the conventional boundary between the continents of Europe and Asia?",
+            "a1": "HIMALAYAS",
+            "a2": "URAL MOUNTAINS",
+            "a3": "ANDES",
+            "a4": "APPALACHIAN MOUNTAINS",
+            "qa": "URAL MOUNTAINS"
+        },
+        {
+            "q": "What is the fastest flowing river in the world?",
+            "a1": "AMAZON",
+            "a2": "YANGTZE",
+            "a3": "CONGO",
+            "a4": "MISSISSIPPI",
+            "qa": "AMAZON"
+        },
+        {
+            "q": "How many countries are there in Africa?",
+            "a1": "42",
+            "a2": "63",
+            "a3": "39",
+            "a4": "54",
+            "qa": "54"
+        },
+        {
+            "q": "What is the most densely populated country on Earth?",
+            "a1": "MONACO",
+            "a2": "TOKYO",
+            "a3": "NEW YORK",
+            "a4": "SHANGHAI",
+            "qa": "MONACO"
+        },
+        {
+            "q": "What is the capital of Pakistan?",
+            "a1": "KARACHI",
+            "a2": "LAHORE",
+            "a3": "BAHAWALPUR",
+            "a4": "ISLAMABAD",
+            "qa": "ISLAMABAD"
+        },
+        {
+            "q": "What is the most populated nation in South America?",
+            "a1": "BRAZIL",
+            "a2": "COLUMBIA",
+            "a3": "ARGENTINA",
+            "a4": "VENEZUELA",
+            "qa": "BRAZIL"
+        },
+        {
+            "q": "What is the most populated country in Africa?",
+            "a1": "GHANA",
+            "a2": "ETHIOPIA",
+            "a3": "SOUTH AFRICA",
+            "a4": "NIGERIA",
+            "qa": "NIGERIA"
+        },
+        {
+            "q": "What Asian country has Kuala Lumpur as its capital?",
+            "a1": "MALAYSIA",
+            "a2": "THAILAND",
+            "a3": "BANGLADESH",
+            "a4": "CAMBODIA",
+            "qa": "MALAYSIA"
+        },
+        {
+            "q": "What European country is home to Transylvania?",
+            "a1": "BULGARIA",
+            "a2": "SLOVANIA",
+            "a3": "ROMANIA",
+            "a4": "CROATIA",
+            "qa": "ROMANIA"
+        },
+        {
+            "q": "What are the only landlocked countries in South America?",
+            "a1": "PARAGUAY & BOLIVIA",
+            "a2": "URUGUAY & SURINAME",
+            "a3": "BRAZIL & ARGENTINA",
+            "a4": "PERU & COLUMBIA",
+            "qa": "PARAGUAY & BOLIVIA"
+        },
+        {
+            "q": "What body of water separates Africa and Europe?",
+            "a1": "STRAIT OF MAGELLAN",
+            "a2": "STRAIT OF MALACCA",
+            "a3": "STRAIT OF HORMUZ",
+            "a4": "STRAIT OF GIBRALTAR",
+            "qa": "STRAIT OF GIBRALTAR"
+        },
+        {
+            "q": "Which of the following continents is intersected by the Equator?",
+            "a1": "NORTH AMERICA",
+            "a2": "SOUTH AMERICA",
+            "a3": "AUSTRALIA",
+            "a4": "EUROPE",
+            "qa": "SOUTH AMERICA"
+        },
+        {
+            "q": "What is the smallest country in South America?",
+            "a1": "BOLIVIA",
+            "a2": "GUYANA",
+            "a3": "ARUBA",
+            "a4": "SURINAME",
+            "qa": "SURINAME"
+        },
+        {
+            "q": "What is the capital of Nigeria?",
+            "a1": "IBADAN",
+            "a2": "LAGOS",
+            "a3": "ABUJA",
+            "a4": "KANO",
+            "qa": "ABUJA"
+        },
+        {
+            "q": "Which country is NOT part of the Scaninavian Peninsula?",
+            "a1": "FINLAND",
+            "a2": "SWEDEN",
+            "a3": "DENMARK",
+            "a4": "NORWAY",
+            "qa": "DENMARK"
+        },
+        {
+            "q": "What is the capital of Turkey?",
+            "a1": "ANKARA",
+            "a2": "ISTANBUL",
+            "a3": "IZMAR",
+            "a4": "BURSA",
+            "qa": "ANKARA"
+        },
+        {
+            "q": "Lake Titicaca sits on the border between what two nations?",
+            "a1": "BRAZIL & PARAGUAY",
+            "a2": "ECUADOR & COLUMBIA",
+            "a3": "BOLIVIA & PERU",
+            "a4": "ARGENTINA & CHILE",
+            "qa": "BOLIVIA & PERU"
+        },
+        {
+            "q": "What is the largest country in the world in terms of land area?",
+            "a1": "CHINA",
+            "a2": "UNITED STATES",
+            "a3": "CANADA",
+            "a4": "RUSSIA",
+            "qa": "RUSSIA"
+        },
+        {
+            "q": "What U.S. state contains the world's largest flat-top mountain?",
+            "a1": "UTAH",
+            "a2": "COLORADO",
+            "a3": "ARIZONA",
+            "a4": "WYOMING",
+            "qa": "COLORADO"
+        },
+        {
+            "q": "What is the state capital of Oklahoma?",
+            "a1": "GUTHRIE",
+            "a2": "OKLAHOMA CITY",
+            "a3": "TULSA",
+            "a4": "EDMOND",
+            "qa": "OKLAHOMA CITY"
+        },
+        {
+            "q": "What is the oldest city in Texas?",
+            "a1": "EL PASO",
+            "a2": "SAN ANTONIO",
+            "a3": "NACOGDOCHES",
+            "a4": "DE KALB",
+            "qa": "NACOGDOCHES"
+        },
+        {
+            "q": "What is the flattest U.S. state?",
+            "a1": "KANSAS",
+            "a2": "DELAWARE",
+            "a3": "FLORIDA",
+            "a4": "ILLINOIS",
+            "qa": "FLORIDA"
+        },
+        {
+            "q": "What country borders the Caspian Sea, Persian Gulf, and Gulf of Oman?",
+            "a1": "SAUDI ARABIA",
+            "a2": "PAKISTAN",
+            "a3": "IRAQ",
+            "a4": "IRAN",
+            "qa": "IRAN"
+        },
+        {
+            "q": "Which U.S. state has the most miles of rivers?",
+            "a1": "CALIFORNIA",
+            "a2": "ALASKA",
+            "a3": "TEXAS",
+            "a4": "NEBRASKA",
+            "qa": "NEBRASKA"
+        },
+        {
+            "q": "What is the capital of Costa Rico?",
+            "a1": "CARTAGO",
+            "a2": "SAN JOSE",
+            "a3": "BUENOS AIRES",
+            "a4": "SANTA TERESA",
+            "qa": "SAN JOSE"
+        },
+        {
+            "q": "What is the earliest known walled city?",
+            "a1": "JERICHO",
+            "a2": "BEIJING",
+            "a3": "CAIRO",
+            "a4": "BABYLON",
+            "qa": "JERICHO"
+        },
+        {
+            "q": "What is the oldest city in India?",
+            "a1": "PATNA",
+            "a2": "VARANASI",
+            "a3": "MADURAI",
+            "a4": "UJJAIN",
+            "qa": ""
+        },
+        {
+            "q": "Which U.S. state has the largest aquifer?",
+            "a1": "NEBRASKA",
+            "a2": "TEXAS",
+            "a3": "ALASKA",
+            "a4": "FLORIDA",
+            "qa": "NEBRASKA"
+        },
+        {
+            "q": "What is the primary mountain range in Iran?",
+            "a1": "ZAGROS MOUNTAINS",
+            "a2": "ASIR MOUNTAINS",
+            "a3": "HEJAZ MOUNTAINS",
+            "a4": "CAUCASUS MOUNTAINS",
+            "qa": "ZAGROS MOUNTAINS"
+        },
+        {
+            "q": "What is the state capital of Oregon?",
+            "a1": "HILLSBORO",
+            "a2": "PORTLAND",
+            "a3": "SALEM",
+            "a4": "EUGENE",
+            "qa": "SALEM"
+        },
+        {
+            "q": "What U.S. state is home to Yellowstone National Park?",
+            "a1": "NEBRASKA",
+            "a2": "UTAH",
+            "a3": "COLORADO",
+            "a4": "WYOMING",
+            "qa": "WYOMING"
+        },
+        {
+            "q": "What Canadian province boasts the longest freshwater beach in the world?",
+            "a1": "SASKATCHEWAN",
+            "a2": "BRITISH COLUMBIA",
+            "a3": "NOVA SCOTIA",
+            "a4": "ONTARIO",
+            "qa": "ONTARIO"
+        },
+        {
+            "q": "What is the highest point in Oregon?",
+            "a1": "MOUNT MCLOUGHLIN",
+            "a2": "MOUNT HOOD",
+            "a3": "MOUNT JEFFERSON",
+            "a4": "MOUNT BAILEY",
+            "qa": "MOUNT HOOD"
+        },
+        {
+            "q": "What is the longest river in the UK?",
+            "a1": "BANN",
+            "a2": "THAMES",
+            "a3": "SEVERN",
+            "a4": "TAY",
+            "qa": "SEVERN"
+        },
+        {
+            "q": "What is the highest mountain in the British Isles?",
+            "a1": "SNOWDON",
+            "a2": "GLYDER FAWR",
+            "a3": "BEN NEVIS",
+            "a4": "SCAFELL PICK",
+            "qa": "BEN NEVIS"
+        },
+        {
+            "q": "What is the capital city of Saskatchewan?",
+            "a1": "MELVILLE",
+            "a2": "YORKTON",
+            "a3": "SASKATOON",
+            "a4": "REGINA",
+            "qa": "REGINA"
+        },
+        {
+            "q": "What is the national river of Russia?",
+            "a1": "VOLGA",
+            "a2": "RHINE",
+            "a3": "OB",
+            "a4": "DANUBE",
+            "qa": "VOLGA"
+        },
+        {
+            "q": "What is the longest river in Canada?",
+            "a1": "COLUMBIA",
+            "a2": "YUKON",
+            "a3": "ST. LAWRENCE",
+            "a4": "MACKENZIE",
+            "qa": "MACKENZIE"
+        },
+        {
+            "q": "What Australian city boasts the world's largest natural harbor?",
+            "a1": "SYDNEY",
+            "a2": "BRISBANE",
+            "a3": "PERTH",
+            "a4": "MELBOURNE",
+            "qa": "SYDNEY"
+        },
+        {
+            "q": "What is the largest city in Saskatchewan?",
+            "a1": "MOOSE JAW",
+            "a2": "WEYBURN",
+            "a3": "SASKATOON",
+            "a4": "REGINA",
+            "qa": "SASKATOON"
+        },
+        {
+            "q": "Where was the first European settlement in Australia located?",
+            "a1": "PORT KEMLA",
+            "a2": "PORT STEPHENS",
+            "a3": "PORT HUNTER",
+            "a4": "PORT JACKSON",
+            "qa": "PORT JACKSON"
+        },
+        {
+            "Q": "Magyars are the people of which country?",
+            "a1": "SLOVAKIA",
+            "a2": "ROMANIA",
+            "a3": "HUNGARY",
+            "a4": "MOLDOVA",
+            "qa": "HUNGARY"
+        },
+        {
+            "q": "Pilbara is a region in which Australian state?",
+            "a1": "WESTERN AUSTRALIA",
+            "a2": "QUEENSLAND",
+            "a3": "NEW SOUTH WALES",
+            "a4": "TASMANIA",
+            "qa": "WESTERN AUSTRALIA"
+        },
+        {
+            "q": "What is the capital of Armenia?",
+            "a1": "BATAYSK",
+            "a2": "BAKU",
+            "a3": "YEREVAN",
+            "a4": "TBILISI",
+            "qa": "YEREVAN"
+        },
+        {
+            "q": "The Chukchi Sea is north of which sea?",
+            "a1": "WHITE SEA",
+            "a2": "BERING SEA",
+            "a3": "Norwegian Sea",
+            "a4": "BEAUFORT SEA",
+            "qa": "BERING SEA"
+        },
+        {
+            "q": "Where is the Levantine Basin found?",
+            "a1": "NORTH PACIFIC OCEAN",
+            "a2": "ARCTIC OCEAN",
+            "a3": "MEDITERRANEAN SEA",
+            "a4": "SOUTH ATLANTIC OCEAN",
+            "qa": "MEDITERRANEAN SEA"
+        },
+        {
+            "q": "The Chalbi Desert and Cherangany Hills are found in which country?",
+            "a1": "TANZANIA",
+            "a2": "DEMOCRATIC REPUBLIC OF THE CONGO",
+            "a3": "KENYA",
+            "a4": "SOUTH SUDAN",
+            "qa": "KENYA"
+        },
+        {
+            "q": "Which country occupies most of Cisjordan?",
+            "a1": "ISRAEL",
+            "a2": "JORDAN",
+            "a3": "EGYPT",
+            "a4": "TURKEY",
+            "qa": "ISRAEL"
+        },
+        {
+            "q": "The Baikonur Cosmodrome, Russia's main space launch facility, is located in which country?",
+            "a1": "KAZAKHSTAN",
+            "a2": "UZBEKISTAN",
+            "a3": "KYRGYZSTAN",
+            "a4": "UZBEKISTAN",
+            "qa": "KAZAKHSTAN"
+        },
+        {
+            "q": "Lebanon gained independence from which country in 1943?",
+            "a1": "SPAIN",
+            "a2": "UNITED KINGDOM",
+            "a3": "FRANCE",
+            "a4": "GERMANY",
+            "qa": "FRANCE"
+        }
+    ]
+}
