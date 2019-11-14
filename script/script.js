@@ -23,7 +23,6 @@
 
 
 
-
             
 let injectContent = document.getElementById('inject');
 let body = document.getElementById('body');
@@ -73,10 +72,22 @@ function loadTitle(info){
 
 function loadMenu(info){
     injectContent.innerHTML = info;
+    body.className = 'game-bg';
+
+    let easyBtn = document.getElementById('easyBtn').addEventListener('click', function(){
+        injectHTML('../inject/game.html');
+    });
+    let mediumBtn = document.getElementById('mediumBtn').addEventListener('click', function(){
+        injectHTML('../inject/game.html');
+    });
+    let hardBtn = document.getElementById('hardBtn').addEventListener('click', function(){
+        injectHTML('../inject/game.html');
+    });
 }
 
 function loadGame(info){
     injectContent.innerHTML = info;
+    //body.className = 'title-bg';
 }
 
 
