@@ -329,7 +329,7 @@
             "qa": "PORT JACKSON"
         },
         {
-            "Q": "Magyars are the people of which country?",
+            "q": "Magyars are the people of which country?",
             "a1": "SLOVAKIA",
             "a2": "ROMANIA",
             "a3": "HUNGARY",
