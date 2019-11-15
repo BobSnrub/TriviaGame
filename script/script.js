@@ -23,6 +23,8 @@ let A2 = document.getElementById('a2');
 let A3 = document.getElementById('a3');
 let A4 = document.getElementById('a4');
 
+
+
 function injectHTML(url) {
 
     let xmlhttp = new XMLHttpRequest();
@@ -123,6 +125,8 @@ function loadJSON(url) {
             else {
                 console.log('Check your if statement in loadJSON');
             }
+
+            loadQuestion();
         }
     };
     xmlhttp.open("GET", url, true);
@@ -148,35 +152,36 @@ function loadQuestion() {
     A4.innerText = smArray[qNum].a4;
 }
 
-function checkAnswer(answer) {
+function checkAnswer(answer){
     //Retrieve the answer and see if it is correct
     //Increment your correct number
 
-    if (answer === tQuestions[qNum].qa) {
+    if(answer === tQuestions[qNum].qa){
         totalScore++;
     }
-    else {
+    else{
         incorrect++;
     }
     console.log('Console Log');
-    // correct.innerText = `${totalScore}/${totalQuestions}`;
-    // timer = 5;
-    // counter.innerText = timer;
+    correct.innerText=`${totalScore}/${totalQuestions}`;
+    timer = 5;
+    counter.innerText=timer;
     nextQuestion();
 }
 
-function nextQuestion() {
-    //Prep
-    //aaa
-    if (qNum < totalQuestions) {
-        // will run until you hit total questions = 20
-        qNum++;
-        loadQuestion();
+//aaa
+function nextQuestion(){
+//Prep
+//aaa
+if(qNum < totalQuestions){
+    // will run until you hit total questions = 20
+    qNum++;
+    loadQuestion();
     }
-    else {
+    else{
         //load ending page
         // clearInterval(interval);
-        // alert("You have finished the game!!");
+        alert("You have finished the game!!");
     }
 }
 
