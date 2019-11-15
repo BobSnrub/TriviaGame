@@ -7,7 +7,7 @@ let injectContent = document.getElementById('inject');
 let body = document.getElementById('body');
 let diff = "";
 let smArray = [];
-let fullArray = "";
+let fullArray = [];
 
 let qNum = 0;
 
@@ -104,23 +104,21 @@ function loadGame(info) {
 function loadJSON(url) {
     let xmlhttp = new XMLHttpRequest();
 
-    xmlhttp.onreadystatechange = function () {
+    xmlhttp.onreadystatechange = function (e) {
         if (this.readyState == 4 && this.status == 200) {
 
             if (url === '../data/ezQ.json') {
                 fullArray = JSON.parse(this.responseText).ezQ;
                 console.log(fullArray);
-                loadQuestion(fullArray);
             }
             else if (url === '../data/mQ.json') {
                 fullArray = JSON.parse(this.responseText).mQ;
                 console.log(fullArray);
-                loadQuestion(fullArray);
+                genRndArr();
             }
             else if (url === '../data/hQ.json') {
                 fullArray = JSON.parse(this.responseText).hQ;
                 console.log(fullArray);
-                loadQuestion(fullArray);
             }
             else {
                 console.log('Check your if statement in loadJSON');
@@ -131,7 +129,7 @@ function loadJSON(url) {
     xmlhttp.send();
 }
 
-function loadQuestion(fullArray) {
+function genRndArr(e) {
     console.log(fullArray);
     for (let i = 0; i < totalQuestions; i++) {
         let rNum = Math.floor(Math.random() * fullArray.length);
@@ -140,8 +138,9 @@ function loadQuestion(fullArray) {
     }
     console.log(smArray);
     console.log(smArray[qNum].q);
-    nextQuestion(smArray);
+}
 
+function loadQuestion() {
     questions.innerText = smArray[qNum].q;
     A1.innerText = smArray[qNum].a1;
     A2.innerText = smArray[qNum].a2;
