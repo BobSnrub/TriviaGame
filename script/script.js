@@ -8,6 +8,8 @@ let body = document.getElementById('body');
 let diff = "";
 let smArray = [];
 let fullArray = [];
+let backpArray = []
+let incorrect = 0;
 
 let qNum = 0;
 
@@ -16,19 +18,13 @@ let interval;
 
 //let correct = document.getElementById('correct');
 let counter = document.getElementById('counter');
-let questions = document.getElementById('questions');
-
-let A1 = document.getElementById('a1');
-let A2 = document.getElementById('a2');
-let A3 = document.getElementById('a3');
-let A4 = document.getElementById('a4');
 
 
 
 function injectHTML(url) {
 
     let xmlhttp = new XMLHttpRequest();
-
+    
     xmlhttp.onreadystatechange = function () {
 
         if (this.readyState == 4 && this.status == 200) {
@@ -42,34 +38,19 @@ function injectHTML(url) {
             }
             else if (url === '../inject/game.html') {
                 loadGame(myArr);
+                loadQuestion();
             }
             else {
                 console.log('Check your if statement in InjectHTML');
             }
         }
-
+        
     };
     //opens connection
     xmlhttp.open("GET", url, true);
-
+    
     //pulls the request
     xmlhttp.send();
-}
-
-function mksmallArray(fullArray) {
-    for (let i = 0; i < totalQuestions; i++) {
-        qNum = Math.floor(Math.random() * q.fullArray.length)
-        smArray.push(q.fullArray[qNum]);
-        console.log(smArray);
-    }
-
-    // for (let i = 0; i < totalQuestions; i++) {
-    //     qNum = Math.floor(Math.random() * q.ezQ.length);
-    //     //console.log(qNum);
-    //     triviaQ.push(q.ezQ[qNum]);
-    //     q.ezQ.splice(qNum, 1);
-
-    // }
 }
 
 function loadTitle(info) {
@@ -83,7 +64,7 @@ function loadTitle(info) {
 function loadMenu(info) {
     injectContent.innerHTML = info;
     body.className = 'game-bg';
-
+    
     let easyBtn = document.getElementById('easyBtn').addEventListener('click', function () {
         loadJSON("../data/ezQ.json");
         injectHTML("../inject/game.html");
@@ -100,70 +81,111 @@ function loadMenu(info) {
 
 function loadGame(info) {
     injectContent.innerHTML = info;
-    //body.className = 'title-bg';
 }
 
 function loadJSON(url) {
     let xmlhttp = new XMLHttpRequest();
-
+    
     xmlhttp.onreadystatechange = function (e) {
         if (this.readyState == 4 && this.status == 200) {
-
+            
             if (url === '../data/ezQ.json') {
                 fullArray = JSON.parse(this.responseText).ezQ;
                 console.log(fullArray);
+                backpArray = fullArray;
+                genRndArr();
             }
             else if (url === '../data/mQ.json') {
                 fullArray = JSON.parse(this.responseText).mQ;
                 console.log(fullArray);
+                backpArray = fullArray;
                 genRndArr();
             }
             else if (url === '../data/hQ.json') {
                 fullArray = JSON.parse(this.responseText).hQ;
                 console.log(fullArray);
+                backpArray = fullArray;
+                genRndArr();
             }
             else {
                 console.log('Check your if statement in loadJSON');
             }
-
-            loadQuestion();
+            
         }
     };
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+    
 }
 
-function genRndArr(e) {
-    console.log(fullArray);
-    for (let i = 0; i < totalQuestions; i++) {
-        let rNum = Math.floor(Math.random() * fullArray.length);
-        console.log(rNum);
-        smArray.push(fullArray[rNum]);
+function genRndArr() {
+    // console.log(fullArray);
+    if(smArray.length > 0){
+        smArray = [];
     }
-    console.log(smArray);
-    console.log(smArray[qNum].q);
+    for (let i = 0; i < totalQuestions; i++) {
+        let rNum = Math.floor(Math.random() * backpArray.length);
+        console.log(rNum);
+        smArray.push(backpArray[rNum]);
+        backpArray.splice(rNum, 1);
+    }
+    // console.log(smArray);
+    // console.log(smArray[qNum].q);
+    // console.log(backpArray);
 }
 
 function loadQuestion() {
+    let questions = document.getElementById('questions');
+    let A1 = document.getElementById('a1');
+    let A2 = document.getElementById('a2');
+    let A3 = document.getElementById('a3');
+    let A4 = document.getElementById('a4');
+
+    // console.log(smArray);
     questions.innerText = smArray[qNum].q;
     A1.innerText = smArray[qNum].a1;
     A2.innerText = smArray[qNum].a2;
     A3.innerText = smArray[qNum].a3;
     A4.innerText = smArray[qNum].a4;
+    
+    A1.addEventListener('click', function(e){
+        console.log("My A1 click event is working");
+        checkAnswer(e.toElement.innerText);
+    });
+    A2.addEventListener('click', function(e){
+        console.log("My A2 click event is working");
+        checkAnswer(e.toElement.innerText);
+    });
+    A3.addEventListener('click', function(e){
+        console.log("My A3 click event is working");
+        checkAnswer(e.toElement.innerText);
+    });
+    A4.addEventListener('click', function(e){
+        console.log("My A4 click event is working");
+        checkAnswer(e.toElement.innerText);
+    });
+
+    let modalMenu = document.getElementById('modal-menu').addEventListener('click', function(){
+        $('#OptionsModal').modal('hide');
+        injectHTML('../inject/menu.html');
+    });
 }
 
 function checkAnswer(answer){
     //Retrieve the answer and see if it is correct
     //Increment your correct number
+    
 
-    if(answer === tQuestions[qNum].qa){
+    if(answer === smArray[qNum].qa){
         totalScore++;
+        console.log("totalScore");
     }
     else{
         incorrect++;
+        console.log("incorrect");
     }
-    console.log('Console Log');
-    correct.innerText=`${totalScore}/${totalQuestions}`;
+    // console.log('test');
+    // correct.innerText=`${totalScore}/${totalQuestions}`;
     timer = 5;
     counter.innerText=timer;
     nextQuestion();
@@ -175,6 +197,7 @@ function nextQuestion(){
 //aaa
 if(qNum < totalQuestions){
     // will run until you hit total questions = 20
+    console.log("next question???");
     qNum++;
     loadQuestion();
     }
@@ -186,4 +209,7 @@ if(qNum < totalQuestions){
 }
 
 console.log(smArray);
+
 injectHTML('../inject/title.html');
+
+
