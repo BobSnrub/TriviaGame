@@ -1,0 +1,404 @@
+{
+    "hQ": [
+        {
+            "q": "Wellington is the capital of ?",
+            "a1": "Australia",
+            "a2": "New Zealand",
+            "a3": "Fiji",
+            "a4": "Japan",
+            "qa": "New Zealand"
+        },
+        {
+            "q": "Prague is the capital of ?",
+            "a1": "Czech Republic",
+            "a2": "Greece",
+            "a3": "Turkey",
+            "a4": "Estonia",
+            "qa": "Czech Republic"
+        },
+        {
+            "q": "Lima is the capital of ?",
+            "a1": "Dominican Republic",
+            "a2": "Peru",
+            "a3": "Brazil",
+            "a4": "Bolivia",
+            "qa": "Peru"
+        },
+        {
+            "q": "Dhaka is the capital city of?",
+            "a1": "Bangladesh",
+            "a2": "Philippines",
+            "a3": "India",
+            "a4": "Turkey",
+            "qa": "Bangladesh"
+        },
+        {
+            "q": "Baghdad is the capital of ?",
+            "a1": "Iraq",
+            "a2": "Iran",
+            "a3": "Bahrain",
+            "a4": "Saudi Arabia",
+            "qa": "Iraq"
+        },
+        {
+            "q": "Georgetown is the capital of ?",
+            "a1": "Haiti",
+            "a2": "Guyana",
+            "a3": "South Africa",
+            "a4": "New Zealand",
+            "qa": "Guyana"
+        },
+        {
+            "q": "Minsk is the capital of ?",
+            "a1": "Belarus",
+            "a2": "Georgia",
+            "a3": "Bulgaria",
+            "a4": "Poland",
+            "qa": "Belarus"
+        },
+        {
+            "q": "Pristina is the capital of ?",
+            "a1": "Kosovo",
+            "a2": "Bosnia and Herzegovina",
+            "a3": "Georgia",
+            "a4": "Lithuania",
+            "qa": "Kosovo"
+        },
+        {
+            "q": "Monaco is the capital of ?",
+            "a1": "France",
+            "a2": "Greece",
+            "a3": "Monaco",
+            "a4": "Greece",
+            "qa": "Monaco"
+        },
+        {
+            "q": "Belgrade is the capital of ?",
+            "a1": "Slovakia",
+            "a2": "Serbia",
+            "a3": "Macedonia",
+            "a4": "Luxembourg",
+            "qa": "Serbia"
+        },
+        {
+            "q": "Hanoi is the capital of ?",
+            "a1": "India",
+            "a2": "Thailand",
+            "a3": "Vietnam",
+            "a4": "Laos",
+            "qa": "Vietnam"
+        },
+        {
+            "q": "Amman is the capital of ?",
+            "a1": "Egypt",
+            "a2": "Lebanon",
+            "a3": "Jordan",
+            "a4": "Kenya",
+            "qa": "Jordan"
+        },
+        {
+            "q": "Ottawa is the capital of ?",
+            "a1": "Mexico",
+            "a2": "Denmark",
+            "a3": "Canada",
+            "a4": "Iceland",
+            "qa": "Canada"
+        },
+        {
+            "q": "Athens is the capital of ?",
+            "a1": "Luxembourg",
+            "a2": "France",
+            "a3": "Greece",
+            "a4": "Turkey",
+            "qa": "Greece"
+        },
+        {
+            "q": "Warsaw is the capital of ?",
+            "a1": "Macedonia",
+            "a2": "Poland",
+            "a3": "Russia",
+            "a4": "Ukraine",
+            "qa": "Poland"
+        },
+        {
+            "q": "San Salvador is the capital of ?",
+            "a1": "El Salvador",
+            "a2": "Dominican Republic",
+            "a3": "Ecuador",
+            "a4": "Bolivia",
+            "qa": "El Salvador"
+        },
+        {
+            "q": "Madrid is the capital of ?",
+            "a1": "Spain",
+            "a2": "Italy",
+            "a3": "Uruguay",
+            "a4": "Portugal",
+            "qa": "Spain"
+        },
+        {
+            "q": "Canberra is the capital of ? ?",
+            "a1": "New Zealand",
+            "a2": "Fiji",
+            "a3": "El Salvador",
+            "a4": "Australia",
+            "qa": "Australia"
+        },
+        {
+            "q": "Washington DC is the capital city of ?",
+            "a1": "Canada",
+            "a2": "Mexico",
+            "a3": "Australia",
+            "a4": "Fiji",
+            "qa": "Fiji"
+        },
+        {
+            "q": "Vilnius is the capital of ?",
+            "a1": "Lithuania",
+            "a2": "Georgia",
+            "a3": "Ukraine",
+            "a4": "Poland",
+            "qa": "Lithuania"
+        },
+        {
+            "q": "Brussels is the capital of ?",
+            "a1": "Norway",
+            "a2": "Sweden",
+            "a3": "Belgium",
+            "a4": "Lebanon",
+            "qa": "Belgium"
+        },
+        {
+            "q": "Lome is the capital of ?",
+            "a1": "Senegal",
+            "a2": "Tonga",
+            "a3": "Togo",
+            "a4": "Chad",
+            "qa": "Togo"
+        },
+        {
+            "q": "Kampala is the capital of ?",
+            "a1": "Namibia",
+            "a2": "Tonga",
+            "a3": "Uganda",
+            "a4": "Nigeria",
+            "qa": "Uganda"
+        },
+        {
+            "q": "Seoul is the capital of ?",
+            "a1": "Japan",
+            "a2": "China",
+            "a3": "South Korea",
+            "a4": "North Korea",
+            "qa": "South Korea"
+        },
+        {
+            "q": "Kuala Lumpur is the capital of ?",
+            "a1": "Moldova",
+            "a2": "Malaysia",
+            "a3": "Mauritius",
+            "a4": "Malawi",
+            "qa": "Malaysia"
+        },
+        {
+            "q": "Beijing is the capital of ?",
+            "a1": "Japan",
+            "a2": "Thailand",
+            "a3": "Cambodia",
+            "a4": "China",
+            "qa": "China"
+        },
+        {
+            "q": "Taipei is the capital of ?",
+            "a1": "Taiwan",
+            "a2": "Samoa",
+            "a3": "Tunisia",
+            "a4": "Tajikistan",
+            "qa": "Taiwan"
+        },
+        {
+            "q": "Kigali is the capital of ?",
+            "a1": "Rwanda",
+            "a2": "Sierra Leone",
+            "a3": "Samoa",
+            "a4": "Swaziland",
+            "qa": "Rwanda"
+        },
+        {
+            "q": "Vienna is the capital of ?",
+            "a1": "Italy",
+            "a2": "Austria",
+            "a3": "Switzerland",
+            "a4": "Germany",
+            "qa": "Austria"
+        },
+        {
+            "q": "Kingston is the capital of ?",
+            "a1": "Ecuador",
+            "a2": "Guatemala",
+            "a3": "Jamaica",
+            "a4": "The Bahamas",
+            "qa": "Jamaica"
+        },
+        {
+            "q": "Stockholm is the capital of ?",
+            "a1": "Iceland",
+            "a2": "Sweden",
+            "a3": "Finland",
+            "a4": "Denmark",
+            "qa": "Sweden"
+        },
+        {
+            "q": "Islamabad is the capital of ?",
+            "a1": "Afghanistan",
+            "a2": "India",
+            "a3": "Pakistan",
+            "a4": "Morocco",
+            "qa": "Pakistan"
+        },
+        {
+            "q": "Helsinki is the capital of ?",
+            "a1": "Norway",
+            "a2": "Denmark",
+            "a3": "Sweden",
+            "a4": "Finland",
+            "qa": "Finland"
+        },
+        {
+            "q": "Manila is the capital of ?",
+            "a1": "Vietnam",
+            "a2": "Philippines",
+            "a3": "Thailand",
+            "a4": "Laos",
+            "qa": "Philippines"
+        },
+        {
+            "q": "Quito is the capital of ?",
+            "a1": "Ecuador",
+            "a2": "Chile",
+            "a3": "Brazil",
+            "a4": "Argentina",
+            "qa": "Ecuador"
+        },
+        {
+            "q": "London is the capital of ?",
+            "a1": "England",
+            "a2": "Scotland",
+            "a3": "Wales",
+            "a4": "Ireland",
+            "qa": "England"
+        },
+        {
+            "q": "Vatican City is the capital of ?",
+            "a1": "Thailand",
+            "a2": "Laos",
+            "a3": "North Korea",
+            "a4": "Vatican City",
+            "qa": "Vatican City"
+        },
+        {
+            "q": "Tokyo is the capital of ?",
+            "a1": "Japan",
+            "a2": "China",
+            "a3": "Laos",
+            "a4": "Jordan",
+            "qa": "Japan"
+        },
+        {
+            "q": "Rome is the capital of ?",
+            "a1": "France",
+            "a2": "Senegal",
+            "a3": "Italy",
+            "a4": "Norway",
+            "qa": "Italy"
+        },
+        {
+            "q": "Tbilisi is the capital of ?",
+            "a1": "Georgia",
+            "a2": "Macedonia",
+            "a3": "Liberia",
+            "a4": "Kyrgyzstan",
+            "qa": "Georgia"
+        },
+        {
+            "q": "Cairo is the capital of ?",
+            "a1": "Jordan",
+            "a2": "Egypt",
+            "a3": "Serbia",
+            "a4": "Kyrgyzstan",
+            "qa": "Egypt"
+        },
+        {
+            "q": "Moscow is the capital of ?",
+            "a1": "Russia",
+            "a2": "Liechtenstein",
+            "a3": "Romania",
+            "a4": "Poland",
+            "qa": "Russia"
+        },
+        {
+            "q": "Paris is the capital of ?",
+            "a1": "France",
+            "a2": "Germany",
+            "a3": "Portugal",
+            "a4": "Spain",
+            "qa": "France"
+        },
+        {
+            "q": "Copenhagen is the capital of ?",
+            "a1": "Iceland",
+            "a2": "Norway",
+            "a3": "Denmark",
+            "a4": "Finland",
+            "qa": "Denmark"
+        },
+        {
+            "q": "Berlin is the capital of ?",
+            "a1": "Germany",
+            "a2": "Italy",
+            "a3": "Austria",
+            "a4": "France",
+            "qa": "Germany"
+        },
+        {
+            "q": "Oslo is the capital of ?",
+            "a1": "Norway",
+            "a2": "Sweden",
+            "a3": "Belgium",
+            "a4": "Denmark",
+            "qa": "Norway"
+        },
+        {
+            "q": "Sofia is the capital of ?",
+            "a1": "Russia",
+            "a2": "Poland",
+            "a3": "Lativa",
+            "a4": "Bulgaria",
+            "qa": "Bulgaria"
+        },
+        {
+            "q": "Lisbon is the capital of ? ",
+            "a1": "Spain",
+            "a2": "Morocco",
+            "a3": "Portugal",
+            "a4": "Germany",
+            "qa": "Portugal"
+        },
+        {
+            "q": "Bern is the capital of ?",
+            "a1": "Germany",
+            "a2": "Austria",
+            "a3": "Switzerland",
+            "a4": "Portugal",
+            "qa": "Switzerland"
+        },
+        {
+            "q": "Ankara is the capital of ?",
+            "a1": "Egypt",
+            "a2": "Lithuania",
+            "a3": "Turkey",
+            "a4": "Ukraine",
+            "qa": "Turkey"
+        }
+    ]
+}

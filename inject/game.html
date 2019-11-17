@@ -15,26 +15,30 @@
                     </button>
                 </div>
                 <div class="modal-body">
+                    <p>How to Play:</p>
                     <p>
-                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
-                        facilisis
-                        in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+                        This is a simple trivia game where you are given a question and you answer it by clicking on one
+                        of the four multiple choice buttons. There are 20 questions in each quiz and each difficulty is
+                        set on a timer where you have a certain amount of time to answer the question before it is
+                        counted as incorrect.
                     </p>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis
-                        lacus vel augue laoreet rutrum faucibus dolor auctor.
-                    </p>
-                    <p>
-                        Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel
-                        scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non
-                        metus
-                        auctor fringilla.
-                    </p>
-                    <p>
-                        Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac
-                        facilisis
-                        in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-                    </p>
+                    <hr>
+
+                    <p>Rules for Hard:</p>
+                    <p>For hard you have 5 seconds per question to answer.</p>
+                    <hr>
+
+                    <p>For Medium:</p>
+                    <p>For medium you have 15 seconds per question to answer.</p>
+                    <hr>
+
+                    <p>For Easy:</p>
+                    <p>For easy you have 30 seconds per question to answer.</p>
+                    <hr>
+
+                    <p>Bonus:</p>
+                    <p>You get one incorrect answer removed from your score if you correctly answer five questions in a
+                        row.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -58,9 +62,9 @@
                 </div>
                 <div class="modal-body">
                     <div class="col">
-                        <div class="row center">
+                        <!-- <div class="row center">
                             <button class="btn btn-lg btn-primary navBnt m-4">Music On/Off</button>
-                        </div>
+                        </div> -->
                         <div class="row center">
                             <button id="modal-restart" class="btn btn-lg btn-primary navBnt m-4">Restart</button>
                         </div>
@@ -98,10 +102,21 @@
             </div>
             <div class="col">
                 <div class="row center">
+                    <p>Correct: <b id="cor"></b></p>
+                </div>
+                <div class="row center">
+                    <p>Incorrect: <b id="incor"></b></p>
+                </div>
+                <div class="row center">
+                    <p>Bonus: <b id="bon"></b></p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row center">
                     <h3>Score</h3>
                 </div>
                 <div class="row center">
-                    <h4><b>4/20</b></h4>
+                    <h4><b id="scoreCount">0/20</b></h4>
                 </div>
             </div>
         </div>
