@@ -137,11 +137,17 @@ function loadGame(info, arr, triviaTime) {
     });
     document.getElementById('modal-restart').addEventListener('click', function () {
         $('#OptionsModal').modal('hide');
-        clearInterval(interval);
         totalScore=0;
+        document.getElementById('cor').innerText = totalScore;
         qNum = 0;
+        bonusNum = 0;
+        document.getElementById('bon').innerText = bonusNum;
         incorrect = 0;
-        injectHTML('../inject/game.html');
+        document.getElementById('incor').innerText = incorrect;
+        clearInterval();
+        timeCount = triviaTime;
+        updateTime();
+        nextQuestion();
     });
     interval = setInterval(updateTime, 1000);
     let triviaQ = [];
