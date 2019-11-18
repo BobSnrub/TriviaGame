@@ -64,10 +64,10 @@ function injectHTML(url) {
                 loadGame(myArr, easyArr, 30);
             }
             else if (url === '../inject/game.html' && diff === 2) {
-                loadGame(myArr, mediumArr, 20);
+                loadGame(myArr, mediumArr, 15);
             }
             else if (url === '../inject/game.html' && diff === 3) {
-                loadGame(myArr, hardArr, 10);
+                loadGame(myArr, hardArr, 5);
             }
             else if (url === '../inject/endPage.html') {
                 test(myArr);
@@ -131,6 +131,7 @@ function loadGame(info, arr, triviaTime) {
         easyArr = [];
         mediumArr = [];
         hardArr = [];
+        clearInterval(interval);
         loadJSON('../data/ezQ.json');
         loadJSON('../data/mQ.json');
         loadJSON('../data/hQ.json');
@@ -197,7 +198,7 @@ function loadGame(info, arr, triviaTime) {
         if (answer === triviaQ[qNum].qa) {
             totalScore++;
             bonusNum++;
-            if (bonusNum === 3 && incorrect !== 0) {
+            if (bonusNum === 5 && incorrect !== 0) {
                 incorrect = incorrect - 1;
                 document.getElementById('incor').innerText = incorrect;
                 bonusNum = 0;
@@ -247,6 +248,8 @@ function loadGame(info, arr, triviaTime) {
 
         if (timeCount == 0) {
             timeCount = triviaTime;
+            incorrect++;
+            document.getElementById('incor').innerText = incorrect;
             counter.innerText = timeCount;
             nextQuestion();
         }
@@ -273,6 +276,7 @@ function test(stuff) {
         easyArr = [];
         mediumArr = [];
         hardArr = [];
+        clearInterval(interval);
         loadJSON('../data/ezQ.json');
         loadJSON('../data/mQ.json');
         loadJSON('../data/hQ.json');
