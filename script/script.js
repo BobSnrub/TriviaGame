@@ -125,7 +125,6 @@ function loadGame(info, arr, triviaTime) {
         injectHTML('../inject/menu.html');
         totalScore = 0
         totalQuestions = 20;
-        diff = 0;
         incorrect = 0;
         qNum = 0;
         easyArr = [];
@@ -138,6 +137,10 @@ function loadGame(info, arr, triviaTime) {
     });
     document.getElementById('modal-restart').addEventListener('click', function () {
         $('#OptionsModal').modal('hide');
+        clearInterval(interval);
+        totalScore=0;
+        qNum = 0;
+        incorrect = 0;
         injectHTML('../inject/game.html');
     });
     interval = setInterval(updateTime, 1000);
@@ -271,7 +274,6 @@ function test(stuff) {
         totalScore = 0;
         incorrect = 0;
         totalQuestions = 20;
-        diff = 0;
         qNum = 0;
         easyArr = [];
         mediumArr = [];
